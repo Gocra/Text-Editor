@@ -1,0 +1,100 @@
+*,*::before,*::after{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --white: white;
+  --bg: rgb(245,245,247);
+}
+
+.all-colours-used{
+  color:hsl(0, 0%, 0%);
+  color:hsl(0, 0%, 11%);
+  color:hsl(0, 0%, 22%);
+  color:hsl(0, 0%, 33%);
+  color:hsl(0, 0%, 44%);
+  color:hsl(0, 0%, 56%);
+  color:hsl(0, 0%, 67%);
+  color:hsl(0, 0%, 78%);
+  color:hsl(0, 0%, 89%);
+  color:hsl(0, 0%, 100%);
+
+  color:hsl(0, 100%, 27%);
+  color:hsl(0, 100%, 50%);
+  color:hsl(39, 100%, 50%);
+  color:hsl(60, 100%, 50%);
+  color:hsl(120, 100%, 25%);
+  color:hsl(180, 100%, 50%);
+  color:hsl(219, 79%, 66%);
+  color:hsl(240, 100%, 50%);
+  color:hsl(300, 100%, 25%);
+  color:hsl(300, 100%, 50%);
+
+  color:hsl(0, 100%, 90%);
+  color:hsl(0, 100%, 90%);
+  color:hsl(39, 100%, 90%);
+  color:hsl(60, 100%, 90%);
+  color:hsl(120, 100%, 90%);
+  color:hsl(180, 100%, 90%);
+  color:hsl(219, 79%, 90%);
+  color:hsl(240, 100%, 90%);
+  color:hsl(300, 100%, 90%);
+  color:hsl(300, 100%, 90%);
+
+  color:hsl(0, 100%, 75%);
+  color:hsl(0, 100%, 75%);
+  color:hsl(39, 100%, 75%);
+  color:hsl(60, 100%, 75%);
+  color:hsl(120, 100%, 75%);
+  color:hsl(180, 100%, 75%);
+  color:hsl(219, 79%, 75%);
+  color:hsl(240, 100%, 75%);
+  color:hsl(300, 100%, 75%);
+  color:hsl(300, 100%, 75%);
+
+  color:hsl(0, 100%, 60%);
+  color:hsl(0, 100%, 60%);
+  color:hsl(39, 100%, 60%);
+  color:hsl(60, 100%, 60%);
+  color:hsl(120, 100%, 60%);
+  color:hsl(180, 100%, 60%);
+  color:hsl(219, 79%, 60%);
+  color:hsl(240, 100%, 60%);
+  color:hsl(300, 100%, 60%);
+  color:hsl(300, 100%, 60%);
+
+  color:hsl(0, 100%, 45%);
+  color:hsl(0, 100%, 45%);
+  color:hsl(39, 100%, 45%);
+  color:hsl(60, 100%, 45%);
+  color:hsl(120, 100%, 45%);
+  color:hsl(180, 100%, 45%);
+  color:hsl(219, 79%, 45%);
+  color:hsl(240, 100%, 45%);
+  color:hsl(300, 100%, 45%);
+  color:hsl(300, 100%, 45%);
+
+  color:hsl(0, 100%, 30%);
+  color:hsl(0, 100%, 30%);
+  color:hsl(39, 100%, 30%);
+  color:hsl(60, 100%, 30%);
+  color:hsl(120, 100%, 30%);
+  color:hsl(180, 100%, 30%);
+  color:hsl(219, 79%, 30%);
+  color:hsl(240, 100%, 30%);
+  color:hsl(300, 100%, 30%);
+  color:hsl(300, 100%, 30%);
+
+  color:hsl(0, 100%, 15%);
+  color:hsl(0, 100%, 15%);
+  color:hsl(39, 100%, 15%);
+  color:hsl(60, 100%, 15%);
+  color:hsl(120, 100%, 15%);
+  color:hsl(180, 100%, 15%);
+  color:hsl(219, 79%, 15%);
+  color:hsl(240, 100%, 15%);
+  color:hsl(300, 100%, 15%);
+  color:hsl(300, 100%, 15%);
+}

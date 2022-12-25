@@ -1,0 +1,31 @@
+.colour-picker{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding: 0.75rem;
+    border-radius: 0.25rem;
+    border: 1px solid rgba(0,0,0,0.1);
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.15rem;
+}
+
+.colour-picker .row{
+    display: flex;
+    column-gap: 0.15rem;
+}
+
+.colour-picker .row .colour{
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 1px solid rgba(0,0,0,0.1);
+    transition: all 100ms ease-in-out;
+    cursor: pointer;
+}
+
+.colour-picker .row .colour:hover{
+    scale: 1.1;
+    box-shadow: 0 0 0 rgba(0,0,0,0.1);
+}
