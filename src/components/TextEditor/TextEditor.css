@@ -9,6 +9,7 @@
 }
 
 .text-editor .page{
+    line-height: 1.25;
     width: 8.5in;
     min-height: 11in;
     background-color: white;
