@@ -1,5 +1,5 @@
 # Text Editor
 
-[View Live Site Here](https://www.google.com)
+[View Live Site Here](https://text-editor-gocra.vercel.app/)
 
 A simple rich text editor
