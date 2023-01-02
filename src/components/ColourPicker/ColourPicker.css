@@ -9,6 +9,32 @@
     display: flex;
     flex-direction: column;
     row-gap: 0.15rem;
+    z-index: 1;
+}
+
+@media only screen and (max-width: 600px) {
+    /* styles for browsers smaller than 600px; */
+    .colour-picker{
+        left: unset;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    /* styles for mobile browsers smaller than 420px; */
+    .colour-picker{
+        right: 0;
+    }
+}
+
+@media only screen and (max-width: 349px) {
+    /* styles for mobile browsers smaller than 349px; */
+    .colour-picker{
+        position: fixed;
+        right: unset;
+        left: 50%;
+        top: 10%;
+        translate: -50% -10%;
+    }
 }
 
 .colour-picker .row{

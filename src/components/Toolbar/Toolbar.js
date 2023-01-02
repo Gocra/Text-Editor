@@ -20,8 +20,6 @@ import {
   faChevronDown,
   faIndent,
   faOutdent,
-  faLink,
-  faImage,
 } from "@fortawesome/free-solid-svg-icons";
 import ColourPicker from "../ColourPicker/ColourPicker";
 
@@ -30,7 +28,6 @@ const Toolbar = () => {
   const [showTextColourPicker, setShowTextColourPicker] = useState(false);
   const [showHighlightColourPicker, setShowHighlightColourPicker] =
     useState(false);
-  const [showAddLink, setShowAddLink] = useState(false);
 
   const eCommand = (command) => {
     document.execCommand(command, false, null);
