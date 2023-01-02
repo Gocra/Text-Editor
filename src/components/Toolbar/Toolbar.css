@@ -6,6 +6,7 @@
     position: sticky;
     position: -webkit-sticky;
     top: 0;
+    overflow: hidden;
 }
 
 .toolbar .buttons-container{
@@ -14,6 +15,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    row-gap: 0.25rem;
+    flex-wrap: wrap;
 }
 
 .toolbar .buttons-container .toolbar-section{
@@ -23,6 +26,8 @@
     margin-right: 0.5rem;
     padding-right: 0.5rem;
     position: relative;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .toolbar .buttons-container .toolbar-section:not(:last-child){
